@@ -29,7 +29,7 @@ public class Calculs {
         String[] parts = null;
         
         
-        while(!cadena.equals("666")){ ///qualsevol condicio de sortida finalment es pot posar EOF
+        while(!cadena.equals("6661")){ ///qualsevol condicio de sortida finalment es pot posar EOF
             cadena = sc.nextLine();
             control(cadena);
             

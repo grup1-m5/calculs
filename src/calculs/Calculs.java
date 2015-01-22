@@ -16,7 +16,7 @@ public class Calculs {
     static final int MIN = -2147483648;
     
     public static void main(String[] args) {
-        Calculs calc = new Calculs("Versió 1.7");
+        Calculs calc = new Calculs("Versió 1.7.Ivan");
     }
     
     public Calculs(String x){

@@ -25,7 +25,7 @@ public class Calculs {
         System.out.println(x);
         Scanner sc = new Scanner(System.in);
         String cadena = "0";
-        int part1;
+        int pt1;
         int pt2;
         int resultat = 0;
         String[] parts = null;
@@ -39,33 +39,33 @@ public class Calculs {
                 try{
                     if (cadena.contains("-")) {
                        parts = cadena.split("-");
-                       part1 = Integer.parseInt(parts[0]);
+                       pt1 = Integer.parseInt(parts[0]);
                        pt2 = Integer.parseInt(parts[1]);
-                       resultat=resta(part1,pt2);
+                       resultat=resta(pt1,pt2);
                     }
                     if (cadena.contains("+")) {
                        parts = cadena.split("\\+");
-                       part1 = Integer.parseInt(parts[0]);
+                       pt1 = Integer.parseInt(parts[0]);
                        pt2 = Integer.parseInt(parts[1]);
-                       resultat=suma(part1,pt2);
+                       resultat=suma(pt1,pt2);
                     }
                     if (cadena.contains("/")) {
                        parts = cadena.split("/");
-                       part1 = Integer.parseInt(parts[0]);
+                       pt1 = Integer.parseInt(parts[0]);
                        pt2 = Integer.parseInt(parts[1]);
-                       resultat=divisio(part1,pt2);
+                       resultat=divisio(pt1,pt2);
                     }
                     if (cadena.contains("*")) {
                        parts = cadena.split("\\*");
-                       part1 = Integer.parseInt(parts[0]);
+                       pt1 = Integer.parseInt(parts[0]);
                        pt2 = Integer.parseInt(parts[1]);
-                       resultat=multiplicacio(part1,pt2);
+                       resultat=multiplicacio(pt1,pt2);
                     }
                     if (cadena.contains("%")) {
                        parts = cadena.split("%");
-                       part1 = Integer.parseInt(parts[0]);
+                       pt1 = Integer.parseInt(parts[0]);
                        pt2 = Integer.parseInt(parts[1]);
-                       resultat=modul(part1,pt2);
+                       resultat=modul(pt1,pt2);
                     }
 
                     System.out.println(resultat);

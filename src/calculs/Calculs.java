@@ -9,7 +9,9 @@ import java.util.Scanner;
 /**
  *
  * @author I.Ch.
+ * @version 50
  */
+
 public class Calculs {
     boolean  error=false;
     static final int MAX = 2147483647;

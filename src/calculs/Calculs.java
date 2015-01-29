@@ -16,7 +16,7 @@ public class Calculs {
     boolean  error=false;
     static final int MAX = 2147483647;
     static final int MIN = -2147483648;
-    
+    /*comentari de prova*/
     public static void main(String[] args) {
         Calculs calc = new Calculs("Versió 1.7.Ivan");
     }
